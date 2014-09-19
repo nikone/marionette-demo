@@ -1,4 +1,4 @@
 marionette-demo
 ===============
 
-pet pro
+pet project to learn Marionette.js
