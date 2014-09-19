@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1343967043">
+    <data-source source="LOCAL" name="Rails marionette-demo: development" uuid="80f29c9c-7dc7-4e0b-bd8f-1009cbb9db5a">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/marionette_demo_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc2dfcfdfd8dfc5dfc0dfc3</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails marionette-demo: test" uuid="d37d32f1-2887-46c2-bdb6-aa0c7ac9e184">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/marionette_demo_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc2dfcfdfd8dfc5dfc0dfc3</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails marionette-demo: production" uuid="2f382434-38a4-49c2-b7ed-e5f7f5a3a655">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/marionette_demo_production</jdbc-url>
+      <user-name>marionette-demo</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe7dfebdff8dfe3dfe5dfe4dfefdffedffedfefdf87dfeedfefdfe7dfe5dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
