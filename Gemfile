@@ -38,3 +38,12 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+gem "js-routes"
+
+gem "eco"
+gem "compass-rails", "~> 1.1.2"
+gem "zurb-foundation", '~> 4.0.0'
+gem "foundation-icons-sass-rails"
+
+
