@@ -7,8 +7,7 @@
     mainRegion: "#main-region"
     footerRegion: "#footer-region"
 
-  #App.rootRoute = Routes.crew_index_path()
-  App.rootRoute = "/crew"
+  App.rootRoute = Routes.crew_path()
 
   App.addInitializer ->
     App.module("HeaderApp").start()
