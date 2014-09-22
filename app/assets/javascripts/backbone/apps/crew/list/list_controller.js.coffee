@@ -9,6 +9,7 @@
         @titleRegion()
         @panelRegion()
         @newRegion()
+        @crewRegion()
 
       App.mainRegion.show @layout
 
@@ -26,6 +27,13 @@
 
     getNewView: ->
       new List.New
+
+    crewRegion: ->
+      crewView = @getCrewView()
+      @layout.crewRegion.show crewView
+
+    getCrewView: ->
+      new List.Crew
 
     getPanelView: ->
       new List.Panel
