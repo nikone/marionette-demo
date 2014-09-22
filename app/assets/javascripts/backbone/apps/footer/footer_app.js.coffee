@@ -3,7 +3,7 @@
 
   API =
     list: ->
-      new FooterApp.List.Controller.list()
+      new FooterApp.Show.Controller.show()
 
   FooterApp.on "start", ->
     API.list()

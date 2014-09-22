@@ -258,7 +258,7 @@
     this.initialize.apply(this, arguments);
   };
 
-  // A list of options to be attached directly to the model, if provided.
+  // A show of options to be attached directly to the model, if provided.
   var modelOptions = ['url', 'urlRoot', 'collection'];
 
   // Attach all inheritable methods to the Model prototype.
@@ -630,12 +630,12 @@
       return Backbone.sync.apply(this, arguments);
     },
 
-    // Add a model, or list of models to the set.
+    // Add a model, or show of models to the set.
     add: function(models, options) {
       return this.set(models, _.defaults(options || {}, addOptions));
     },
 
-    // Remove a model, or a list of models from the set.
+    // Remove a model, or a show of models from the set.
     remove: function(models, options) {
       models = _.isArray(models) ? models.slice() : [models];
       options || (options = {});
@@ -657,7 +657,7 @@
       return this;
     },
 
-    // Update a collection by `set`-ing a new list of models, adding new ones,
+    // Update a collection by `set`-ing a new show of models, adding new ones,
     // removing models that are no longer present, and merging models that
     // already exist in the collection, as necessary. Similar to **Model#set**,
     // the core operation for updating the data contained by the collection.
@@ -685,7 +685,7 @@
             if (sortable && !sort && existing.hasChanged(sortAttr)) sort = true;
           }
 
-        // This is a new model, push it to the `toAdd` list.
+        // This is a new model, push it to the `toAdd` show.
         } else if (options.add) {
           toAdd.push(model);
 
@@ -732,7 +732,7 @@
     },
 
     // When you have more items than you want to add or remove individually,
-    // you can reset the entire set with a new list of models, without firing
+    // you can reset the entire set with a new show of models, without firing
     // any granular `add` or `remove` events. Fires `reset` when finished.
     // Useful for bulk operations and optimizations.
     reset: function(models, options) {
@@ -877,13 +877,13 @@
       return model;
     },
 
-    // **parse** converts a response into a list of models to be added to the
+    // **parse** converts a response into a show of models to be added to the
     // collection. The default implementation is just to pass it through.
     parse: function(resp, options) {
       return resp;
     },
 
-    // Create a new collection with an identical list of models as this one.
+    // Create a new collection with an identical show of models as this one.
     clone: function() {
       return new this.constructor(this.models);
     },
@@ -972,7 +972,7 @@
 
   // Backbone Views are almost more convention than they are actual code. A View
   // is simply a JavaScript object that represents a logical chunk of UI in the
-  // DOM. This might be a single item, an entire list, a sidebar or panel, or
+  // DOM. This might be a single item, an entire show, a sidebar or panel, or
   // even the surrounding frame which wraps your whole app. Defining a chunk of
   // UI as a **View** allows you to define your DOM events declaratively, without
   // having to worry about render order ... and makes it easy for the view to
@@ -1082,7 +1082,7 @@
     // Performs the initial configuration of a View with a set of options.
     // Keys with special meaning *(e.g. model, collection, id, className)* are
     // attached directly to the view.  See `viewOptions` for an exhaustive
-    // list.
+    // show.
     _configure: function(options) {
       if (this.options) options = _.extend({}, _.result(this, 'options'), options);
       _.extend(this, _.pick(options, viewOptions));

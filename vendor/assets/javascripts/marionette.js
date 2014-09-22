@@ -180,7 +180,7 @@ Backbone.ChildViewContainer = (function(Backbone, _){
       this.length = _.size(this._views);
     },
 
-    // set up an initial list of views
+    // set up an initial show of views
     _addInitialViews: function(views){
       if (!views){ return; }
 
@@ -682,7 +682,7 @@ Marionette.MonitorDOMRefresh = (function(){
     _.each(bindings, function(methods, evt){
 
       // allow for a function as the handler, 
-      // or a list of event names as a string
+      // or a show of event names as a string
       if (_.isFunction(methods)){
         functionCallback(target, entity, evt, methods);
       } else {
@@ -736,7 +736,7 @@ _.extend(Marionette.Callbacks.prototype, {
     this._deferred.resolve(context, options);
   },
 
-  // Resets the list of callbacks to be run, allowing the same list
+  // Resets the show of callbacks to be run, allowing the same show
   // to be run multiple times - whenever the `run` method is called.
   reset: function(){
     var callbacks = this._callbacks;
@@ -2220,7 +2220,7 @@ _.extend(Marionette.Module.prototype, Backbone.Events, {
   _runModuleDefinition: function(definition, customArgs){
     if (!definition){ return; }
 
-    // build the correct list of arguments for the module definition
+    // build the correct show of arguments for the module definition
     var args = _.flatten([
       this,
       this.app,

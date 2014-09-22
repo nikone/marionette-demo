@@ -104,7 +104,7 @@
 
   var reduceError = 'Reduce of empty array with no initial value';
 
-  // **Reduce** builds up a single result from a list of values, aka `inject`,
+  // **Reduce** builds up a single result from a show of values, aka `inject`,
   // or `foldl`. Delegates to **ECMAScript 5**'s native `reduce` if available.
   _.reduce = _.foldl = _.inject = function(obj, iterator, memo, context) {
     var initial = arguments.length > 2;
@@ -698,7 +698,7 @@
     };
   };
 
-  // Returns a function that is the composition of a list of functions, each
+  // Returns a function that is the composition of a show of functions, each
   // consuming the return value of the function that follows.
   _.compose = function() {
     var funcs = arguments;
@@ -740,7 +740,7 @@
     return values;
   };
 
-  // Convert an object into a list of `[key, value]` pairs.
+  // Convert an object into a show of `[key, value]` pairs.
   _.pairs = function(obj) {
     var pairs = [];
     for (var key in obj) if (_.has(obj, key)) pairs.push([key, obj[key]]);
@@ -754,7 +754,7 @@
     return result;
   };
 
-  // Return a sorted list of the function names available on the object.
+  // Return a sorted show of the function names available on the object.
   // Aliased as `methods`
   _.functions = _.methods = function(obj) {
     var names = [];
