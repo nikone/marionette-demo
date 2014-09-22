@@ -1,79 +1,9 @@
 <div id="crew-list">
-    <div id="page-title">
-        <div class="row">
-            <div class="large-12 columns">
-                <h1>Crew</h1>
-                <h4>The Crew Members of Planet Express</h4>
-                <div id="page-icons">
-                    <i class="accessibility foundicon-person"></i>
-                    <i class="accessibility foundicon-person"></i>
-                    <i class="accessibility foundicon-person"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="breadcrumbs">
-        <div class="row">
-            <div class="columns large-12">
-                <ul class="right">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="unavailable">
-                        <a href="#">Crew</a>
-                    </li>
-                    <li class="current">
-                        <a href="#">Fry</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <div id="title-region"></div>
     <section>
         <div class="row">
-            <div class="large-12 columns">
-                <div class="left">
-                    <button id="new-crew" class="button radius small secondary">
-                        <i class="general-enclosed foundicon-plus"></i>
-                        Add
-                    </button>
-                </div>
-                <div class="right">
-                    <dl class="sub-nav">
-                        <dt>Sort:</dt>
-                        <dd class="active">
-                            <a href="#">Name</a>
-                        </dd>
-                        <dd>
-                            <a href="#">Title</a>
-                        </dd>
-                    </dl>
-                </div>
-            </div>
-            <div class="large-12 columns">
-                <form data-type="new">
-                    <div class="panel radius">
-                        <div id="new-crew">
-                            <div class="row">
-                                <div class="large-12 columns">
-                                    <label>What's their name?</label>
-                                    <input type="text" placeholder="Crew Member Name" class="large-6 columns" />
-                                </div>
-                            </div>
-                        </div>
-                        <footer>
-                            <ul class="inline-list">
-                                <li>
-                                    <button data-form-button="primary" class="button small radius">Save</button>
-                                </li>
-                                <li>
-                                    <button data-form-button="cancel" class="button small secondary radius">Cancel</button>
-                                </li>
-                            </ul>
-                        </footer>
-                    </div>
-                </form>
-            </div>
+            <div id="panel-region" class="large-12 columns"></div>
+            <div id="new-region" class="large-12 columns"></div>
         </div>
     </section>
     <div class="row">
