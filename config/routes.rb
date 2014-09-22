@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   root 'application#index'
   get 'static' => 'application#static'
 
-  resource :crew
+  #resource :crew
+  get 'crew' => 'crew#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -48,6 +48,9 @@ gem "compass-rails", "~> 1.1.2"
 gem "zurb-foundation", '~> 4.0.0'
 gem "foundation-icons-sass-rails"
 
+gem 'rabl'
+gem 'oj'
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 
